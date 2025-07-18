@@ -135,6 +135,15 @@ The application includes error handling for:
 - **Target Software**: PIPESTRESS
 - **File Formats**: .NTXT (CAESAR II export) → .FRE (PIPESTRESS input)
 
+## Version History
+
+- **v1.0.0**: First and current version
+- Previous versions available in `/old` directory
+
+## Author
+
+[André Buchmann Müller](https://andrebmuller.notion.site/abm-eng)
+
 ## License
 
-This project is provided as-is for educational and professional use.
+See LICENSE.md file for licensing information.
