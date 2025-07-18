@@ -9,6 +9,9 @@ Current PEPS cards implemented:
 - CRED
 - ERED
 - SUPP
+
+Author: andrebmuller
+Version: 1.0.0
 """
 import os
 from datetime import datetime as time
