@@ -1,0 +1,429 @@
+* The purpose of the input verification text file is to allow validation of
+* CAESAR II job input, material, and element  values prior to analysis.
+* CAESAR II does not use this file in the analysis process.
+* This file should be treated as a report of input values only.
+*
+*    C:\USERS\AYAO\ONEDRIVE\03-PROFISSIONAL\01-EMPRESA\06-IDOM\02
+*        Date:       12/13/2022     Time:  14:50
+*
+VERS       8.00000
+*
+*         Units conversion Constants and Labels:                 
+UNIT       6.89476   6.89476   6.89476   0.02768   0.02768   0.02768   0.11298   6.89476
+UN01       1.75127   1.75127   0.11298   0.11298  25.40000   4.44822   0.45359   1.00000
+UN02       0.02540  25.40000  25.40000  25.40000   0.55556 -17.77778
+UN03        KPa       KPa       KPa    kg./cu.cm.kg./cu.cm.kg./cu.cm. N.m./deg    KPa    
+UN04        N./cm.    N./cm.      N.m.      N.m. 
+UN05     ON        mm.        N.       Kg.       g's        m.       mm.       mm.       
+UN06     mm.       C                      SI (mm)     
+*
+*         Basic Piping Element Data:                             
+ELMT        10.0000   20.0000 1000.0000    1.0000    1.0000  273.0500    9.2710          
+EL01                                                                                     
+EL02                                                                                     
+EL03        50.0000                     1000.0000                                        
+EL04                                                                                     
+EL05                                                                                     
+EL06       106.0000                                                                      
+EL07                                                                                     
+*
+*         Restraint Data:                                        
+REST        10.0000    0.0000                                                            
+RE01         0.0000    0.0000    0.0000                                                  
+*
+*         Allowable Stresses:                                    
+ALLW                                                                                     
+AL01                                                                                     
+AL02                                                                                     
+AL03                             3.0000                                                  
+AL04                                                                                     
+AL05                                                                                     
+AL06                                                                                     
+AL07                                                                                     
+AL08                                                                                     
+AL09                                                                                     
+AL10                                                                                     
+AL11                                                                                     
+AL12                                                                                     
+AL13                                                                                     
+AL14                                                                                     
+AL15                                                                                     
+AL16                                                                                     
+*
+*         Basic Piping Element Data:                             
+ELMT        20.0000   30.0000  120.6500    1.0000    1.0000                              
+EL01                                                                                     
+EL02                                                                                     
+EL03                                                                                     
+EL04                                                                                     
+EL05                                                                                     
+EL06                                                                                     
+EL07                                                                                     
+*
+*         Rigid Data:                                            
+RIGD       409.2365                                                                      
+*
+*         Basic Piping Element Data:                             
+ELMT        30.0000   40.0000  457.2000    1.0000    1.0000                              
+EL01                                                                                     
+EL02                                                                                     
+EL03                                                                                     
+EL04                                                                                     
+EL05                                                                                     
+EL06                                                                                     
+EL07                                                                                     
+*
+*         Rigid Data:                                            
+RIGD      3380.6489                                                                      
+*
+*         Basic Piping Element Data:                             
+ELMT        40.0000   50.0000  120.6500    1.0000    1.0000                              
+EL01                                                                                     
+EL02                                                                                     
+EL03                                                                                     
+EL04                                                                                     
+EL05                                                                                     
+EL06                                                                                     
+EL07                                                                                     
+*
+*         Rigid Data:                                            
+RIGD       409.2365                                                                      
+*
+*         Basic Piping Element Data:                             
+ELMT        50.0000   60.0000 1000.0000    1.0000    1.0000                              
+EL01                                                                                     
+EL02                                                                                     
+EL03                                                                                     
+EL04                                                                                     
+EL05                                                                                     
+EL06                                                                                     
+EL07                                                                                     
+*
+*         Bend Data:                                             
+BEND       381.0000    1.5000                                                            
+BN01        59.0000 MidPt       58.0000    0.0000                                        
+*
+*         Basic Piping Element Data:                             
+ELMT        60.0000   70.0000           1000.0000                                        
+EL01                                                                                     
+EL02                                                                                     
+EL03                                                                                     
+EL04                                                                                     
+EL05                                                                                     
+EL06                                                                                     
+EL07                                                                                     
+*
+*         Basic Piping Element Data:                             
+ELMT        70.0000   80.0000           1000.0000                                        
+EL01                                                                                     
+EL02                                                                                     
+EL03                                                                                     
+EL04                                                                                     
+EL05                                                                                     
+EL06                                                                                     
+EL07                                                                                     
+*
+*         Basic Piping Element Data:                             
+ELMT        80.0000   90.0000           1000.0000                                        
+EL01                                                                                     
+EL02                                                                                     
+EL03                                                                                     
+EL04                                                                                     
+EL05                                                                                     
+EL06                                                                                     
+EL07                                                                                     
+*
+*         Bend Data:                                             
+BEND       381.0000    1.5000                                                            
+BN01        89.0000 MidPt       88.0000    0.0000                                        
+*
+*         Basic Piping Element Data:                             
+ELMT        90.0000  100.0000                     1000.0000                              
+EL01                                                                                     
+EL02                                                                                     
+EL03                                                                                     
+EL04                                                                                     
+EL05                                                                                     
+EL06                                                                                     
+EL07                                                                                     
+*
+*         Basic Piping Element Data:                             
+ELMT       100.0000  110.0000                     1000.0000                              
+EL01                                                                                     
+EL02                                                                                     
+EL03        50.0000                                                                      
+EL04                                                                                     
+EL05                                                                                     
+EL06                                                                                     
+EL07                                                                                     
+*
+*         Restraint Data:                                        
+REST       110.0000   17.0000                                                            
+RE01         0.0000    0.0000    0.0000                                                  
+*
+*         Allowable Stresses:                                    
+ALLW                                                                                     
+AL01                                                                                     
+AL02                                                                                     
+AL03                                                                                     
+AL04                                                                                     
+AL05                                                                                     
+AL06                                                                                     
+AL07                                                                                     
+AL08                                                                                     
+AL09                                                                                     
+AL10                                                                                     
+AL11                                                                                     
+AL12                                                                                     
+AL13                                                                                     
+AL14                                                                                     
+AL15                                                                                     
+AL16                                                                                     
+*
+*         Basic Piping Element Data:                             
+ELMT       110.0000  120.0000                     1000.0000                              
+EL01                                                                                     
+EL02                                                                                     
+EL03                                                                                     
+EL04                                                                                     
+EL05                                                                                     
+EL06                                                                                     
+EL07                                                                                     
+*
+*         Basic Piping Element Data:                             
+ELMT       120.0000  130.0000                     1000.0000                              
+EL01                                                                                     
+EL02                                                                                     
+EL03                                                                                     
+EL04                                                                                     
+EL05                                                                                     
+EL06                                                                                     
+EL07                                                                                     
+*
+*         Basic Piping Element Data:                             
+ELMT       130.0000  140.0000                      380.0000                              
+EL01                                                                                     
+EL02                                                                                     
+EL03                                                                                     
+EL04                                                                                     
+EL05                                                                                     
+EL06                                                                                     
+EL07                                                                                     
+*
+*         Reducers:                                              
+RED        355.6000   11.1252                                                            
+*
+*         Basic Piping Element Data:                             
+ELMT       140.0000  150.0000                     1000.0000  355.6000   11.1252          
+EL01                                                                                     
+EL02                                                                                     
+EL03                                                                                     
+EL04                                                                                     
+EL05                                                                                     
+EL06                                                                                     
+EL07                                                                                     
+*
+*         Basic Piping Element Data:                             
+ELMT       150.0000  160.0000                     1000.0000                              
+EL01                                                                                     
+EL02                                                                                     
+EL03                                                                                     
+EL04                                                                                     
+EL05                                                                                     
+EL06                                                                                     
+EL07                                                                                     
+*
+*         Restraint Data:                                        
+REST       160.0000    0.0000                                                            
+RE01         0.0000    0.0000    0.0000                                                  
+*
+*         Basic Piping Element Data:                             
+ELMT       100.0000  170.0000 1000.0000                      168.2750    9.2710          
+EL01                                                                                     
+EL02                                                                                     
+EL03                                                                                     
+EL04                                                                                     
+EL05                                                                                     
+EL06                                                                                     
+EL07                                                                                     
+*
+*         Bend Data:                                             
+BEND       228.0000    1.5000                                                            
+BN01       169.0000 MidPt      168.0000    0.0000                                        
+*
+*         Basic Piping Element Data:                             
+ELMT       170.0000  180.0000                     1000.0000                              
+EL01                                                                                     
+EL02                                                                                     
+EL03                                                                                     
+EL04                                                                                     
+EL05                                                                                     
+EL06                                                                                     
+EL07                                                                                     
+*
+*         Basic Piping Element Data:                             
+ELMT       180.0000  190.0000                     1000.0000                              
+EL01                                                                                     
+EL02                                                                                     
+EL03                                                                                     
+EL04                                                                                     
+EL05                                                                                     
+EL06                                                                                     
+EL07                                                                                     
+*
+*         Bend Data:                                             
+BEND       228.0000    1.5000                                                            
+BN01       189.0000 MidPt      188.0000    0.0000                                        
+*
+*         Basic Piping Element Data:                             
+ELMT       190.0000  120.0000 -1000.000                                                  
+EL01                                                                                     
+EL02                                                                                     
+EL03                                                                                     
+EL04                                                                                     
+EL05                                                                                     
+EL06                                                                                     
+EL07                                                                                     
+*
+*         Special Execution Parameters:                          
+MISC         3.0000    1.0000    0.0000    0.0000    0.0000    0.0000    1.0000    0.0000
+MC01         0.0000   21.1111   21.6000    0.2500    0.0000    0.0000    0.0000    0.0000
+MC02         0.0000    0.0000                                                            
+*
+*         Hanger Run Control Parameters:                         
+HDSG         1.0000   25.0000                        1.0000              1.0000    0.0000
+*
+*         Global Coordinates:                                    
+COOR         0.0000                                                                      
+*
+*         Configuration File Settings:                           
+CNFG       11.0      10.0      10.0         0.000     0.000     0.000  7.00      1.00    
+CF01          0.000     0.000     0.000     0.000     0.000     0.000  12.0      6.00    
+CF02       10.0      14.0     0.300E+05 0.250E+05 0.200E+05 0.150E+05 0.100E+05  12.0    
+CF03       14.0      10.0      11.0      9.00      1.00      6.00      12.0      1.00    
+CF04      0.500E-01  1.00         0.000  5.00      95.0      1.00      5.00         0.000
+CF05          0.000  1.00      3.00         0.000 0.100E+07  1.00     0.150      15.0    
+CF06      0.100E+13 0.100E+11  1.00         0.000     0.000  1.00         0.000     0.000
+CF07          0.000  2.00      1.00         0.000     0.000     0.000     0.000     0.000
+CF08       2.00      2.00      2.00         0.000     0.000  1.00         0.000     0.000
+CF09          0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000
+CF10          0.000     0.000     0.000     0.000  1.00      1.00      1.00      1.00    
+CF11       1.00      1.00      1.00     0.100E-03     0.000     0.000     0.000     0.000
+CF12          0.000 0.100E+13 0.100E+13     0.000  1.00         0.000     0.000  1.00    
+CF13       1.00      1.00      12.5         0.000  10.0      1.00      1.00      1.00    
+CF14      0.320E+07 0.250     0.153      3.00      12.0     0.600E-01  3.00      1.00    
+CF15       1.00      1.00      1.00         0.000     0.000     0.000     0.000     0.000
+CF16          0.000  1.00      30.0      1.00         0.000     0.000  70.0         0.000
+CF17       1.00         0.000     0.000     0.000     0.000  1.00      2.00         0.000
+CF18       1.00      3.00         0.000  1.00      2.00      1.00         0.000     0.000
+*
+*         Job Title Page:                                        
+JOBT       PROJECT:                                                  
+JB01                                                                 
+JB02       CLIENT :                                                  
+JB03                                                                 
+JB04       ANALYST:                                                  
+JB05                                                                 
+JB06       NOTES  :                                                  
+JB07                                                                 
+JB08                                                                 
+JB 9                                                                 
+JB10                                                                 
+JB11                                                                 
+JB12                                                                 
+JB13                                                                 
+JB14                                                                 
+JB15                                                                 
+JB16                                                                 
+JB17                                                                 
+JB18                                                                 
+JB19                                                                 
+JB20                                                                 
+JB21                                                                 
+JB22                                                                 
+JB23                                                                 
+JB24                                                                 
+JB25                                                                 
+JB26                                                                 
+JB27                                                                 
+JB28                                                                 
+JB29                                                                 
+JB30                                                                 
+JB31                                                                 
+JB32                                                                 
+JB33                                                                 
+JB34                                                                 
+JB35                                                                 
+JB36                                                                 
+JB37                                                                 
+JB38                                                                 
+JB39                                                                 
+JB40                                                                 
+JB41                                                                 
+JB42                                                                 
+JB43                                                                 
+JB44                                                                 
+JB45                                                                 
+JB46                                                                 
+JB47                                                                 
+JB48                                                                 
+JB49                                                                 
+JB50                                                                 
+JB51                                                                 
+JB52                                                                 
+JB53                                                                 
+JB54                                                                 
+JB55                                                                 
+JB56                                                                 
+JB57                                                                 
+JB58                                                                 
+JB59                                                                 
+NMAT        1
+MATN         A106 Grade B    
+MT01       106.0000    3.0000                                            0.0078          
+MT02               203395328.    0.0000    0.0000    0.2920              0.0000          
+MT03                                                                                     
+TM01       -198.333  -128.889  -101.111   -45.556   21.1111   37.7778   93.3333  148.8889
+TM02       204.4444  260.0000  315.5555  343.3333  371.1111  398.8889  426.6666  454.4444
+TM03       482.2222  510.0000  537.7778  565.5555  593.3333  621.1111  648.8889  676.6666
+TM04       704.4444  732.2222  759.9999                                                  
+TM05                                                                                     
+EX01         9.9000   10.4148   10.6200   11.1600   11.5200   11.6442   12.0600   12.4200
+EX02        12.7800   13.1400   13.3200   13.5000   13.6800   13.8600   14.0400   14.1300
+EX03        14.2200   14.4000   14.5800   14.6700   14.7600   14.8500   14.9400   15.0300
+EX04        15.1200   15.1200   15.1200                                                  
+EX05                                                                                     
+AW01      137895.14 137895.14 137895.14 137895.14 137895.14 137895.14 137895.14 137895.14
+AW02      137205.66 131000.38 123416.15 119279.29 115142.44 95837.117 78600.227 59984.383
+AW03      40679.066 27579.027 17236.893 11031.611 6894.7568                              
+AW04                                                                                     
+AW05                                                                                     
+EM01     216495360.212358512.210290080.206842704.203395328.202016368.198568992.195121616.
+EM02     190984768.188226864.184090000.179953152.175816304.171679440.166853120.160647840.
+EM03     154442560.147547792.140653040.132379328.124105624.                              
+EM04                                                                                     
+EM05                                                                                     
+YL01      241316.48 241316.48 241316.48 241316.48 241316.48 241316.48 221321.69 213737.45
+YL02      206153.23 196500.56 184779.48 178574.20 173058.39 166853.11 162026.78 157200.45
+YL03      152374.12 148237.27 143410.94                                                  
+YL04                                                                                     
+YL05                                                                                     
+UT01                                                                                     
+UT02                                                                                     
+UT03                                                                                     
+UT04                                                                                     
+UT05                                                                                     
+W-01         1.0000    1.0000    1.0000    1.0000    1.0000    1.0000    1.0000    1.0000
+W-02         1.0000    1.0000    1.0000    1.0000    1.0000    1.0000    1.0000    1.0000
+W-03         1.0000    1.0000    1.0000    1.0000    1.0000    1.0000    1.0000    1.0000
+W-04         1.0000    1.0000    1.0000                                                  
+W-05                                                                                     
+RM01                                                                                     
+RM02                                                                                     
+RM03                                                                                     
+RM04                                                                                     
+RM05                                                                                     
+
+More detailed element information 
+will be added upon permforming an 
+Error Check or Batch Run
